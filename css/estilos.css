@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto+Mono:wght@100..700&display=swap");
+:root {
+  --bs-body-bg: #FCF5EB;
+  --bs-primary-bg-subtle:transparent;
+}
+
+.btn-outline-success {
+  --bs-btn-border-color: rgb(0, 0, 0);
+  --bs-btn-hover-bg: black;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.icon-wink {
+  color: red;
+  font-size: 3rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgb(196, 197, 192);
+}
+
+.carousel-control-next-icon {
+  background-image: url(../imagenes/arrow-right.svg);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../imagenes/arrow-left.svg);
+}
+
+.container {
+  max-width: 1200px; 
+}
+
+.container-miSlider{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.mt-5 {
+  margin-top: 3rem !important; 
+}
+
+.text-center {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333; 
+}
+
+.container p.destacado{
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.container p.chico{
+  font-size: 0.9rem;
+}
+
+
+@media (max-width: 768px) {
+  .mt-5 {
+    margin-top: 2rem !important; 
+  }
+  .text-center {
+    font-size: 1.2rem;
+  }
+}
